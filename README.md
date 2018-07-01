@@ -1,7 +1,9 @@
 # HMobile
+
 A lighter and cleaner HTML5 WebAPP router
 
-##use it for HTML
+use it for HTML
+--------------
 - link the css
 
       <link rel="stylesheet" href="HMobile.css"/>

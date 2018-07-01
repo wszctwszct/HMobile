@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <title>HMobile</title>
+    <link rel="stylesheet" href="HMobile.css"/>
+</head>
+<body touch-action="none">
+<!-- Views -->
+<div class="views">
+    <!-- Your main view, should have "view-main" class -->
+    <div class="view view-main">
+        <!-- Pages container, because we use fixed-through navbar and toolbar, it has additional appropriate classes-->
+        <div class="pages navbar-through toolbar-through">
+            <!-- Page, "data-page" contains page name -->
+            <div class="page page-on-center" data-page="index" >
+                <p id="loadPage">index</p>
+            </div>
+        </div>
+    </div>
+</div>
+<!--<script src="framework7.min.js"></script>-->
+<script src="HMobile.js"></script>
+<script src="index.js"></script>
+</body>
+</html>

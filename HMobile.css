@@ -1,0 +1,41 @@
+html, body {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+    font-size: 100%;
+}
+body {
+    margin: 0;
+    padding: 0;
+    color: #000;
+    line-height: 1.4;
+    width: 100%;
+    -webkit-text-size-adjust: 100%;
+    background: #fff;
+    overflow: hidden
+}
+p{
+    font-size: 1rem;
+}
+.pages{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+.pages .page{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    -webkit-transition: transform 0.5s;
+    transition: transform 0.5s;
+}
+.pages .page.page-on-left{
+    transform: translate3d(-20%, 0, 0);
+}
+.pages .page.page-on-center{
+    transform: translate3d(0, 0, 0);
+}
+.pages .page.page-on-right{
+    transform: translate3d(100%, 0, 0);
+}
